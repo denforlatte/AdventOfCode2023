@@ -1,0 +1,15 @@
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\bin\Debug\net8.0\ChallengeOneCS.exe
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\bin\Debug\net8.0\ChallengeOneCS.deps.json
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\bin\Debug\net8.0\ChallengeOneCS.runtimeconfig.json
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\bin\Debug\net8.0\ChallengeOneCS.dll
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\bin\Debug\net8.0\ChallengeOneCS.pdb
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.AssemblyInfoInputs.cache
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.AssemblyInfo.cs
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.csproj.CoreCompileInputs.cache
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.sourcelink.json
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.dll
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\refint\ChallengeOneCS.dll
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.pdb
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ChallengeOneCS.genruntimeconfig.cache
+C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeOneCS\obj\Debug\net8.0\ref\ChallengeOneCS.dll

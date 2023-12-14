@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day01", "Day01", "{2F795EBD-06B5-4796-97BF-A3842BFA19A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS", "CS", "{024F0FFF-4067-4FB4-A447-0D5438FABFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneCS", "Day01\ChallengeOneCS\ChallengeOneCS.csproj", "{A3633564-3E00-4C93-9399-963B21196EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{024F0FFF-4067-4FB4-A447-0D5438FABFAB} = {2F795EBD-06B5-4796-97BF-A3842BFA19A0}
+		{A3633564-3E00-4C93-9399-963B21196EB3} = {024F0FFF-4067-4FB4-A447-0D5438FABFAB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3633564-3E00-4C93-9399-963B21196EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3633564-3E00-4C93-9399-963B21196EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3633564-3E00-4C93-9399-963B21196EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3633564-3E00-4C93-9399-963B21196EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
