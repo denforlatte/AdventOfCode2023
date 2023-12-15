@@ -1,4 +1,4 @@
-﻿namespace ChallengeOneCS;
+﻿namespace ChallengeTwoCS;
 
 public static class InputReader
 {

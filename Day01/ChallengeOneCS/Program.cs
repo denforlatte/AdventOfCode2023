@@ -1,5 +1,4 @@
-﻿using System;
-using ChallengeOneCS;
+﻿using ChallengeOneCS;
 
 var data = InputReader.Read();
 
