@@ -7,28 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Add Solution">
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/InputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/Utilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/ChallengeOneCS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/ChallengeOneCS.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ChallengeOneCS.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ref/ChallengeOneCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/ref/ChallengeOneCS.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/refint/ChallengeOneCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/obj/Debug/net8.0/refint/ChallengeOneCS.dll" afterDir="false" />
-    </list>
+    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Challenge 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702546637339</updated>
-      <workItem from="1702546649704" duration="6686000" />
+      <workItem from="1702546649704" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="Add Solution">
       <option name="closed" value="true" />
@@ -116,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702547155760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Challenge 1">
+      <option name="closed" value="true" />
+      <created>1702660656004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702660656004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +125,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Solution" />
+    <MESSAGE value="Challenge 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge 1" />
   </component>
 </project>
