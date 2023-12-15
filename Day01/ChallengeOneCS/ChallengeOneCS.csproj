@@ -7,4 +7,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+
+
+    <ItemGroup>
+      <None Update="input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="obj\Debug\" />
+    </ItemGroup>
+
 </Project>
