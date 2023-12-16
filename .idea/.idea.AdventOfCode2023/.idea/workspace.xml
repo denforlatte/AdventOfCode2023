@@ -8,17 +8,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Add gitignore">
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/ChallengeTwoCS.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/DictionaryTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/InputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/Utilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/input.txt" afterDir="false" />
+    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Challenge Two">
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/ChallengeOneCS.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/GameValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/InputProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/ChallengeOneCS/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode2023.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2023.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/InputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/ChallengeOneCS/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/ChallengeOneCS/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.ChallengeTwoCS">
+  <component name="RunManager" selected=".NET Project.Day02\ChallengeOneCS">
     <configuration name="ChallengeOneCS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -111,6 +109,29 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day02\ChallengeOneCS" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day02/ChallengeOneCS/bin/Debug/net8.0/ChallengeOneCS.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day02/ChallengeOneCS/bin/Debug/net8.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day02/ChallengeOneCS/ChallengeOneCS.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net8.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Day02\ChallengeOneCS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702546637339</updated>
-      <workItem from="1702546649704" duration="17277000" />
+      <workItem from="1702546649704" duration="22234000" />
     </task>
     <task id="LOCAL-00001" summary="Add Solution">
       <option name="closed" value="true" />
@@ -146,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702660831498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Challenge Two">
+      <option name="closed" value="true" />
+      <created>1702675574839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702675574840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,23 +199,24 @@
     <MESSAGE value="Add Solution" />
     <MESSAGE value="Challenge 1" />
     <MESSAGE value="Add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
+    <MESSAGE value="Challenge Two" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge Two" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day01/ChallengeTwoCS/ChallengeTwoCS/Utilities.cs</url>
-          <line>25</line>
-          <properties documentPath="C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day01\ChallengeTwoCS\ChallengeTwoCS\Utilities.cs" initialLine="25" containingFunctionPresentation="Method 'GetLastDigit'">
+          <url>file://$PROJECT_DIR$/Day02/ChallengeOneCS/Program.cs</url>
+          <line>2</line>
+          <properties documentPath="C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day02\ChallengeOneCS\Program.cs" initialLine="2" containingFunctionPresentation="">
             <startOffsets>
-              <option value="601" />
+              <option value="23" />
             </startOffsets>
             <endOffsets>
-              <option value="629" />
+              <option value="53" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
