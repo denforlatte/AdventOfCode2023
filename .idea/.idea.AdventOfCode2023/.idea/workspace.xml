@@ -9,19 +9,21 @@
     <projectFile>Day03/Day03Part1/Day03Part1.csproj</projectFile>
     <projectFile>Day03/Day03Part2/Day03Part2.csproj</projectFile>
     <projectFile>Day04/Day04Part1/Day04Part1.csproj</projectFile>
+    <projectFile>Day04/Day04Part2/Day04Part2.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Day 3">
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/Day04Part1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/InputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/ScratchCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/ScratchCardProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/Day04Part1/input.txt" afterDir="false" />
+    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Day 4 part 1">
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/Day04Part2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/ScratchCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/ScratchCardProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/Day04Part2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2023.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2023.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13e79b2a7b78394ccf591d3454bff5bfb14e692da011a7e38b66c2312b365a/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2c8e7ca976f350cba9836d5565dac56b11e0b56656fa786460eb1395857a6fa/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b7208b3f72528d22781d25fde9a55271bdf2b5aade4f03b1324579a25493cd8/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c838f74f3c63ac383bd36bc08623ea904f909c7cf61fe1fea9a87349c773394/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,7 +81,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Day04Part1">
+  <component name="RunManager" selected=".NET Project.Day04Part2">
     <configuration name="ChallengeFourCS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -223,6 +226,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day04Part2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day04/Day04Part2/Day04Part2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Day2Part2CS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -257,7 +278,7 @@
       <updated>1702546637339</updated>
       <workItem from="1702546649704" duration="26698000" />
       <workItem from="1702737088230" duration="19112000" />
-      <workItem from="1702817427510" duration="5559000" />
+      <workItem from="1702817427510" duration="8432000" />
     </task>
     <task id="LOCAL-00001" summary="Add Solution">
       <option name="closed" value="true" />
@@ -307,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702821213810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 4 part 1">
+      <option name="closed" value="true" />
+      <created>1702825791898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702825791898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +363,8 @@
     <MESSAGE value="Challenge Two" />
     <MESSAGE value="Challenge Three" />
     <MESSAGE value="Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+    <MESSAGE value="Day 4 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -377,6 +407,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day04/Day04Part2/ScratchCardProcessor.cs</url>
+          <line>37</line>
+          <properties documentPath="C:\Users\Danny\Documents\Coding\Challenges\AdventOfCode2023\Day04\Day04Part2\ScratchCardProcessor.cs" initialLine="36" containingFunctionPresentation="Method 'GetScratchCardReward'">
+            <startOffsets>
+              <option value="1249" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
