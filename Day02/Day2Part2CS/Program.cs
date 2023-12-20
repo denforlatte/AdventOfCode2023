@@ -1,4 +1,4 @@
-﻿using ChallengeOneCS;
+﻿using Day2Part2CS;
 
 var data = InputReader.Read();
 

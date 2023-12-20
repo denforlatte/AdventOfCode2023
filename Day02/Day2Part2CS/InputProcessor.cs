@@ -1,4 +1,4 @@
-﻿namespace ChallengeOneCS;
+﻿namespace Day2Part2CS;
 
 public static class InputProcessor
 {

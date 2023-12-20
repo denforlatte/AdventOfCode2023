@@ -1,14 +1,13 @@
-﻿namespace Day2Part2CS;
+﻿namespace Day05Part1;
 
 public static class InputReader
 {
-    private const string FilePath = "input.txt";
-
-    public static List<string> Read()
+    public static List<string> Read() => Read("input");
+    public static List<string> Read(string file)
     {
         try
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), FilePath);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), $"{file}.txt");
             using var sr = new StreamReader(path);
 
             List<string> formattedInput = new();
