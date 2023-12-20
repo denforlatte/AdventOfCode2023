@@ -4,17 +4,15 @@ public class Mapper
 {
     private readonly List<Range> _map = new();
 
-    public Mapper(IEnumerable<string> data)
+    public Mapper(List<List<double>> data)
     {
-        foreach (var datum in data)
+        foreach (var line in data)
         {
-            var split = datum.Split(" ");
-
             _map.Add(new Range()
             {
-                destinationStart = double.Parse(split[0]),
-                sourceStart = double.Parse(split[1]),
-                range = double.Parse(split[2]),
+                destinationStart = line[0],
+                sourceStart = line[1],
+                range = line[2],
             });
 
             _map = _map.OrderBy(range => range.sourceStart).ToList();
