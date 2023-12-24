@@ -1,6 +1,4 @@
-﻿using Range = Day05Part2.Range;
-
-namespace Day05Part2;
+﻿namespace Day05Part2;
 
 public class Mapper
 {
