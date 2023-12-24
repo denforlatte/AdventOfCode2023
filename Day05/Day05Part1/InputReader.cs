@@ -3,6 +3,7 @@
 public static class InputReader
 {
     public static List<string> Read() => Read("input");
+
     public static List<string> Read(string file)
     {
         try

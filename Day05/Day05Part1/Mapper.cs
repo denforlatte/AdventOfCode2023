@@ -4,6 +4,13 @@ public class Mapper
 {
     private readonly List<Range> _map = new();
 
+    public List<Range> Map => _map;
+
+    public Mapper(List<Range> map)
+    {
+        _map = map;
+    }
+
     public Mapper(List<List<long>> data)
     {
         foreach (var line in data)
@@ -19,7 +26,50 @@ public class Mapper
         }
     }
 
-    public long Map(long sourceId)
+    public Range GetRange(long sourceId, long sourceRange)
+    {
+        foreach (var range in _map)
+        {
+            if (sourceId > range.sourceEnd) continue;
+
+            if (sourceId < range.sourceStart) break;
+
+            var diff = sourceId - range.sourceStart;
+
+            return new Range()
+            {
+                sourceStart = range.sourceStart + diff,
+                destinationStart = range.destinationStart + diff,
+                range = Math.Min(sourceRange, range.range - diff),
+            };
+        }
+
+        foreach (var range in _map)
+        {
+            var sourceEnd = sourceId + sourceRange;
+
+            if (sourceId > range.sourceEnd) continue;
+
+            if (sourceEnd >= range.sourceStart)
+            {
+                return new Range()
+                {
+                    sourceStart = sourceId,
+                    destinationStart = sourceId,
+                    range = range.sourceStart - sourceId,
+                };
+            }
+        }
+
+        return new Range()
+        {
+            sourceStart = sourceId,
+            destinationStart = sourceId,
+            range = sourceRange,
+        };
+    }
+
+    public long GetDestinationId(long sourceId)
     {
         foreach (var range in _map)
         {
@@ -33,13 +83,4 @@ public class Mapper
 
         return sourceId;
     }
-}
-
-public class Range
-{
-    public required long destinationStart { get; init; }
-    public required long sourceStart { get; init; }
-    public required long range { get; init; }
-
-    public long sourceEnd => sourceStart + range - 1;
 }
