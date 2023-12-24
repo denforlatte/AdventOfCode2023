@@ -8,7 +8,7 @@ var mappingData = InputProcessor.ExtractMappingData(data.Skip(1).ToList());
 
 var mappers = mappingData.Select(x => new Mapper(x)).ToList();
 
-double? nearestLocation = null;
+long? nearestLocation = null;
 
 foreach (var seedId in seedIds)
 {
@@ -21,5 +21,6 @@ foreach (var seedId in seedIds)
 }
 
 Console.WriteLine(nearestLocation);
+Console.WriteLine(nearestLocation == 51752125);
 
 // 2687187253 - too high - Location number, not seed number!!!

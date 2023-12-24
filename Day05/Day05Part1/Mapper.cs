@@ -4,7 +4,7 @@ public class Mapper
 {
     private readonly List<Range> _map = new();
 
-    public Mapper(List<List<double>> data)
+    public Mapper(List<List<long>> data)
     {
         foreach (var line in data)
         {
@@ -19,7 +19,7 @@ public class Mapper
         }
     }
 
-    public double Map(double sourceId)
+    public long Map(long sourceId)
     {
         foreach (var range in _map)
         {
@@ -37,9 +37,9 @@ public class Mapper
 
 public class Range
 {
-    public required double destinationStart { get; init; }
-    public required double sourceStart { get; init; }
-    public required double range { get; init; }
+    public required long destinationStart { get; init; }
+    public required long sourceStart { get; init; }
+    public required long range { get; init; }
 
-    public double sourceEnd => sourceStart + range - 1;
+    public long sourceEnd => sourceStart + range - 1;
 }

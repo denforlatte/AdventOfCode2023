@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj": {}
+    "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj": {
+    "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
+        "projectUniqueName": "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
         "projectName": "ChallengeOneCS",
-        "projectPath": "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
+        "projectPath": "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
         "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\obj\\",
+        "outputPath": "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

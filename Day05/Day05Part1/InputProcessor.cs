@@ -2,14 +2,14 @@
 
 public static class InputProcessor
 {
-    public static List<double> ProcessSeedIds(string data)
+    public static List<long> ProcessSeedIds(string data)
     {
-        return data.Split(" ").Skip(1).Select(double.Parse).ToList();
+        return data.Split(" ").Skip(1).Select(long.Parse).ToList();
     }
 
-    public static List<List<List<double>>> ExtractMappingData(List<string> data)
+    public static List<List<List<long>>> ExtractMappingData(List<string> data)
     {
-        List<List<List<double>>> maps = new() {new List<List<double>>()};
+        List<List<List<long>>> maps = new() {new List<List<long>>()};
         int counter = 0;
 
         while (string.IsNullOrWhiteSpace(data[0])) data.RemoveAt(0);
@@ -19,11 +19,11 @@ public static class InputProcessor
             if (string.IsNullOrWhiteSpace(line))
             {
                 counter++;
-                maps.Add(new List<List<double>>());
+                maps.Add(new List<List<long>>());
                 continue;
             }
 
-            maps[counter].Add(line.Split(" ").Select(double.Parse).ToList());
+            maps[counter].Add(line.Split(" ").Select(long.Parse).ToList());
         }
 
         // Remove blanks caused by the end of the line

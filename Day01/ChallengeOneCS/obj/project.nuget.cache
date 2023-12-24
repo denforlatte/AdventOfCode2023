@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2tjsro6YghQJAgHBNhhxztx0sVjRDu8QmgubkByfTSNmoUdGdTBE9uC+j3R6geov1ejF1ZtLxj1q/1eeM20XOw==",
+  "dgSpecHash": "D/G8qr3+gW0nbBUXy/yxmHeBYHCZEjtPj6ZFSLVrL9nwffB/VrztZog0RvPVRXxp8xzFmkC9tWW/BcCcdFTipw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Danny\\Documents\\Coding\\Challenges\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
+  "projectFilePath": "C:\\Users\\Danny\\Documents\\Personal\\AdventOfCode2023\\Day01\\ChallengeOneCS\\ChallengeOneCS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
