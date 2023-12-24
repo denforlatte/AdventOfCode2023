@@ -2,40 +2,22 @@
 
 public static class InputProcessor
 {
-    public static List<double> ProcessSeedIds(string data)
+    public static List<(long Start, long Range)> ProcessSeedIds(string data)
     {
-        var numbers = data.Split(" ").Skip(1).Select(double.Parse).ToList();
-        List<double> seedIds = new();
+        var numbers = data.Split(" ").Skip(1).Select(long.Parse).ToList();
+        List<(long Start, long Range)> seeds = new();
 
-        var totalNumberOfSeeds = 0d;
-
-        for (int i = 0; i < numbers.Count; i += 2)
+        for (int i = 0; i < numbers.Count(); i += 2)
         {
-            totalNumberOfSeeds += numbers[i + 1];
-        }
-        Console.WriteLine($"Total number of seeds: {totalNumberOfSeeds}");
-
-        var count = 0d;
-        for (int i = 0; i < numbers.Count; i += 2)
-        {
-            var start = numbers[i];
-            var range = numbers[i + 1];
-
-
-            for (int j = 0; j < range; j++)
-            {
-                count++;
-                Console.WriteLine($"Progress: {Math.Round((decimal)(count / totalNumberOfSeeds) * 100, 4)}%");
-                seedIds.Add(start + j);
-            }
+            seeds.Add((numbers[i], numbers[i + 1]));
         }
 
-        return seedIds;
+        return seeds;
     }
 
-    public static List<List<List<double>>> ExtractMappingData(List<string> data)
+    public static List<List<List<long>>> ExtractMappingData(List<string> data)
     {
-        List<List<List<double>>> maps = new() {new List<List<double>>()};
+        List<List<List<long>>> maps = new() {new List<List<long>>()};
         int counter = 0;
 
         while (string.IsNullOrWhiteSpace(data[0])) data.RemoveAt(0);
@@ -45,11 +27,11 @@ public static class InputProcessor
             if (string.IsNullOrWhiteSpace(line))
             {
                 counter++;
-                maps.Add(new List<List<double>>());
+                maps.Add(new List<List<long>>());
                 continue;
             }
 
-            maps[counter].Add(line.Split(" ").Select(double.Parse).ToList());
+            maps[counter].Add(line.Split(" ").Select(long.Parse).ToList());
         }
 
         // Remove blanks caused by the end of the line
