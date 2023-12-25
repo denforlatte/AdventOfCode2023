@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Day06Part1": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7291",
+      "launchBrowser": false
+    }
+  }
+}

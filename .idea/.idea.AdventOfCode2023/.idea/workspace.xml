@@ -12,21 +12,30 @@
     <projectFile>Day04/Day04Part2/Day04Part2.csproj</projectFile>
     <projectFile>Day05/Day05Part1/Day05Part1.csproj</projectFile>
     <projectFile>Day05/Day05Part2/Day05Part2.csproj</projectFile>
+    <projectFile profileName="Day06Part1">Day06/Day06Part1/Day06Part1.csproj</projectFile>
+    <projectFile>Day06/Day06Part2/Day06Part2.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="Flatten maps into single map">
-      <change afterPath="$PROJECT_DIR$/Day05/Day05Part2/MapperMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day05/Day05Part2/Range.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day05/Day05Part2/sample-input.txt" afterDir="false" />
+    <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Day06Part1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/InputProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Race.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/host.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Day06Part2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/InputProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Race.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05Part2/Day05Part2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05Part2/Day05Part2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05Part2/InputProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05Part2/InputProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05Part2/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05Part2/InputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05Part2/Mapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05Part2/Mapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05Part2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05Part2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2023.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2023.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5abecb93434c4299acd01d522fdf8da2c9a910/cb/b35081b3/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Danny/Documents/Personal/AdventOfCode2023/Day05/Day05Part2/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,33 +65,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Danny\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Danny\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\Danny\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Danny\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Danny\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Danny\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.Day05Part2">
+}</component>
+  <component name="RunManager" selected=".NET Project.Day06Part2">
+    <configuration name="Day06Part1" type="AzureFunctionsHost" factoryName="Azure Functions host" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day06/Day06Part1/Day06Part1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="RunnableProjectKind(name=RunnableProjectKind(name=None))" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="FUNCTION_NAMES" value="" />
+      <method v="2">
+        <option name="BuildFunctionsProject" enabled="true" />
+        <option name="RunAzuriteTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChallengeFourCS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -280,6 +310,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day06Part2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day06/Day06Part2/Day06Part2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Day2Part2CS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -298,8 +346,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day06Part1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Day06/Day06Part1/Day06Part1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Day06Part1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Azure Functions host.Day06Part1" />
         <item itemvalue=".NET Project.Day02\ChallengeOneCS" />
       </list>
     </recent_temporary>
@@ -318,7 +382,8 @@
       <workItem from="1702849143681" duration="199000" />
       <workItem from="1703019445009" duration="12197000" />
       <workItem from="1703437182909" duration="305000" />
-      <workItem from="1703437505415" duration="12697000" />
+      <workItem from="1703437505415" duration="13271000" />
+      <workItem from="1703521935306" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="Add Solution">
       <option name="closed" value="true" />
@@ -416,7 +481,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703450234013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Day 5 Part 2">
+      <option name="closed" value="true" />
+      <created>1703453650838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703453650838</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Clean up using directive">
+      <option name="closed" value="true" />
+      <created>1703454038756</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703454038756</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +534,9 @@
     <MESSAGE value="Improved Day 5 part 1" />
     <MESSAGE value="Use long" />
     <MESSAGE value="Flatten maps into single map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flatten maps into single map" />
+    <MESSAGE value="Day 5 Part 2" />
+    <MESSAGE value="Clean up using directive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up using directive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,6 +571,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day06/Day06Part1/Program.cs</url>
+          <line>33</line>
+          <properties documentPath="C:\Users\Danny\Documents\Personal\AdventOfCode2023\Day06\Day06Part1\Program.cs" initialLine="7" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="516" />
+            </startOffsets>
+            <endOffsets>
+              <option value="541" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
