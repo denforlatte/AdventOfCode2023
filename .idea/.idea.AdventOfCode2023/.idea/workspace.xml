@@ -14,26 +14,19 @@
     <projectFile>Day05/Day05Part2/Day05Part2.csproj</projectFile>
     <projectFile profileName="Day06Part1">Day06/Day06Part1/Day06Part1.csproj</projectFile>
     <projectFile>Day06/Day06Part2/Day06Part2.csproj</projectFile>
+    <projectFile>Day07/Day07Part1/Day07Part1.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d61ebdb-ecfb-44a0-b85a-a63753aacf3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Day06Part1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/InputProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/InputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/Race.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/host.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part1/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Day06Part2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/InputProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/InputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/Race.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/Day06Part2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/Day07Part1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/Hand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/InputProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/InputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day07/Day07Part1/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode2023.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2023.sln" afterDir="false" />
     </list>
@@ -91,7 +84,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Day06Part2">
+  <component name="RunManager" selected=".NET Project.Day07Part1">
     <configuration name="Day06Part1" type="AzureFunctionsHost" factoryName="Azure Functions host" temporary="true">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -104,7 +97,7 @@
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="RunnableProjectKind(name=RunnableProjectKind(name=None))" />
+      <option name="PROJECT_KIND" value="RunnableProjectKind(name=RunnableProjectKind(name=RunnableProjectKind(name=None)))" />
       <option name="PROJECT_TFM" value="" />
       <option name="FUNCTION_NAMES" value="" />
       <method v="2">
@@ -328,6 +321,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day07Part1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day07/Day07Part1/Day07Part1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Day2Part2CS" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -383,7 +394,8 @@
       <workItem from="1703019445009" duration="12197000" />
       <workItem from="1703437182909" duration="305000" />
       <workItem from="1703437505415" duration="13271000" />
-      <workItem from="1703521935306" duration="2597000" />
+      <workItem from="1703521935306" duration="6619000" />
+      <workItem from="1703540112871" duration="184000" />
     </task>
     <task id="LOCAL-00001" summary="Add Solution">
       <option name="closed" value="true" />
@@ -497,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703454038756</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day 6">
+      <option name="closed" value="true" />
+      <created>1703535159495</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703535159495</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +556,8 @@
     <MESSAGE value="Flatten maps into single map" />
     <MESSAGE value="Day 5 Part 2" />
     <MESSAGE value="Clean up using directive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up using directive" />
+    <MESSAGE value="Day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,6 +605,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day07/Day07Part1/Program.cs</url>
+          <line>36</line>
+          <properties documentPath="C:\Users\Danny\Documents\Personal\AdventOfCode2023\Day07\Day07Part1\Program.cs" initialLine="8" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="655" />
+            </startOffsets>
+            <endOffsets>
+              <option value="680" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
